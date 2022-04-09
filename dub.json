@@ -1,0 +1,14 @@
+{
+	"authors": [
+		"dbh"
+	],
+	"copyright": "Copyright © 2022, dbh",
+	"description": "A minimal D application.",
+	"license": "proprietary",
+	"name": "hello_world_d",
+	"lflags": ["--as-needed"],
+	"dflags": ["-link-defaultlib-shared=false", "-Os"],
+	"dflags-ldc": [
+		"-linkonce-templates"
+	]
+}
